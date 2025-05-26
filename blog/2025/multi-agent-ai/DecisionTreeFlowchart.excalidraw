@@ -1,0 +1,110 @@
+{
+    "type": "excalidraw",
+    "version": 2,
+    "source": "https://excalidraw.com",
+    "elements": [
+      {
+        "id": "start",
+        "type": "rectangle",
+        "x": 375,
+        "y": 40,
+        "width": 350,
+        "height": 60,
+        "text": "Starting Point:\nBuilding a Multi-Agent System",
+        "fontSize": 16,
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "bold": true
+      },
+      {
+        "id": "decision",
+        "type": "diamond",
+        "x": 350,
+        "y": 140,
+        "width": 400,
+        "height": 120,
+        "strokeColor": "#fab005",
+        "backgroundColor": "#fff3bf",
+        "fillStyle": "solid",
+        "text": "Crucial Question:\nDo agents need a shared working memory\nto coordinate effectively?",
+        "fontSize": 14,
+        "textAlign": "center",
+        "verticalAlign": "middle"
+      },
+      {
+        "id": "arrow_to_decision",
+        "type": "arrow",
+        "x": 550,
+        "y": 100,
+        "width": 0,
+        "height": 40,
+        "points": [[0,0], [0,40]]
+      },
+      {
+        "id": "no_branch",
+        "type": "rectangle",
+        "x": 50,
+        "y": 300,
+        "width": 350,
+        "height": 200,
+        "strokeColor": "#1c7ed6",
+        "backgroundColor": "#d0ebff",
+        "fillStyle": "solid",
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "text": "Consider OpenAI Assistants API\n\nBest for:\n✓ Rapid Prototyping: Go from concept to agent in minutes.\n✓ Simple Persistence: Built-in threads with 60-day history are sufficient.\n✓ Managed Infrastructure: Prefer a single dependency for reliability.\n✓ Standard Tool Use: Function calling meets your integration needs."
+      },
+      {
+        "id": "arrow_no",
+        "type": "arrow",
+        "x": 350,
+        "y": 200,
+        "width": 125,
+        "height": 100,
+        "points": [[0,0], [-125, 100]]
+      },
+      { "id": "label_no", "type": "text", "x": 280, "y": 230, "text": "NO", "fontSize": 16, "bold": true, "strokeColor": "#e03131" },
+      {
+        "id": "yes_branch",
+        "type": "rectangle",
+        "x": 700,
+        "y": 300,
+        "width": 350,
+        "height": 200,
+        "strokeColor": "#2f9e44",
+        "backgroundColor": "#d3f9d8",
+        "fillStyle": "solid",
+        "textAlign": "left",
+        "verticalAlign": "top",
+        "text": "Consider LangGraph\n\nBest for:\n✓ Complex Coordination: Agents need a shared 'scratchpad' to build on each other's work.\n✓ Controllable Infrastructure: Need for long-term, database-backed persistence.\n✓ Custom Logic as Advantage: Your orchestration is a competitive feature.\n✓ Visual Debugging: Essential for iterating on complex agent flows."
+      },
+      {
+        "id": "arrow_yes",
+        "type": "arrow",
+        "x": 750,
+        "y": 200,
+        "width": 125,
+        "height": 100,
+        "points": [[0,0], [125, 100]]
+      },
+      { "id": "label_yes", "type": "text", "x": 820, "y": 230, "text": "YES", "fontSize": 16, "bold": true, "strokeColor": "#2f9e44" },
+      {
+        "id": "hybrid_box",
+        "type": "rectangle",
+        "x": 350,
+        "y": 550,
+        "width": 400,
+        "height": 80,
+        "strokeColor": "#862e9c",
+        "backgroundColor": "#f3d9fa",
+        "fillStyle": "solid",
+        "text": "The 'Best of Both' Hybrid Approach\n\nUse LangGraph for high-level orchestration and call Assistants API\nnodes for their robust tooling and reliability.",
+        "fontSize": 12,
+        "textAlign": "center",
+        "verticalAlign": "middle"
+      },
+      { "id": "arrow_to_hybrid1", "type": "arrow", "x": 225, "y": 500, "width": 125, "height": 50, "points": [[0,0], [125, 50]] },
+      { "id": "arrow_to_hybrid2", "type": "arrow", "x": 875, "y": 500, "width": 125, "height": 50, "points": [[0,0], [-125, 50]] }
+    ],
+    "appState": { "viewBackgroundColor": "#ffffff", "gridSize": null }
+  }
